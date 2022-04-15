@@ -1,0 +1,7 @@
+/Users/safak/Desktop/BootCamp/Store_Dapper/obj/Debug/net6.0/Store_Dapper.csproj.AssemblyReference.cache
+/Users/safak/Desktop/BootCamp/Store_Dapper/obj/Debug/net6.0/Store_Dapper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/safak/Desktop/BootCamp/Store_Dapper/obj/Debug/net6.0/Store_Dapper.AssemblyInfoInputs.cache
+/Users/safak/Desktop/BootCamp/Store_Dapper/obj/Debug/net6.0/Store_Dapper.AssemblyInfo.cs
+/Users/safak/Desktop/BootCamp/Store_Dapper/obj/Debug/net6.0/Store_Dapper.csproj.CoreCompileInputs.cache
+/Users/safak/Desktop/BootCamp/Store_Dapper/obj/Debug/net6.0/Store_Dapper.MvcApplicationPartsAssemblyInfo.cs
+/Users/safak/Desktop/BootCamp/Store_Dapper/obj/Debug/net6.0/Store_Dapper.MvcApplicationPartsAssemblyInfo.cache
