@@ -10,7 +10,7 @@ namespace Store_Dapper.SeedData
             using (var transaction = connection.BeginTransaction())
             {
 
-                var categoryId = await connection.ExecuteScalarAsync<int>("insert into categories(name) values('telefonlar') returning id");
+            
 
 
 
