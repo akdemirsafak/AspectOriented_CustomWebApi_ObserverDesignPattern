@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QqitZjGmkZSCdIct5rgsNAY+3R4AQR6ULDU0fPcxm8p18+MtoXC+iN/A0AlYPCpceEWFcT2A0ErU5MlqfiXgJw==",
+  "dgSpecHash": "Dy5FvC3EXARWm8v5ZjY0Vm1HcQxdM15MVGQgRQw9t8o1lcWQIL74GLp5Vt+gSfsGDyXVM3aYZpoqIWu9WGJq3Q==",
   "success": true,
   "projectFilePath": "/Users/safak/Desktop/BootCamp/Store_Dapper/Store_Dapper.csproj",
   "expectedPackageFiles": [
@@ -16,10 +16,12 @@
     "/Users/safak/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/safak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/safak/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/safak/.nuget/packages/npgsql/6.0.3/npgsql.6.0.3.nupkg.sha512",
     "/Users/safak/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/safak/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/safak/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "/Users/safak/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "/Users/safak/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/safak/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
