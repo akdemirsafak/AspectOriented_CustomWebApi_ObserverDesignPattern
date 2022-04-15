@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Dy5FvC3EXARWm8v5ZjY0Vm1HcQxdM15MVGQgRQw9t8o1lcWQIL74GLp5Vt+gSfsGDyXVM3aYZpoqIWu9WGJq3Q==",
+  "dgSpecHash": "volJcNEpzHNK/vGGChqUOm3kCUvdT+UYvxNtT6lgq8enW59Ww1GP2tw+CPhl+d1kdH7Ww8srasXHUUJjfVv/KA==",
   "success": true,
   "projectFilePath": "/Users/safak/Desktop/BootCamp/Store_Dapper/Store_Dapper.csproj",
   "expectedPackageFiles": [
     "/Users/safak/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/Users/safak/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/safak/.nuget/packages/dapper/2.0.123/dapper.2.0.123.nupkg.sha512",
     "/Users/safak/.nuget/packages/fluentvalidation/10.4.0/fluentvalidation.10.4.0.nupkg.sha512",
     "/Users/safak/.nuget/packages/fluentvalidation.aspnetcore/10.4.0/fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
@@ -15,6 +16,8 @@
     "/Users/safak/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/safak/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/safak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/safak/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/safak/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "/Users/safak/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/safak/.nuget/packages/npgsql/6.0.3/npgsql.6.0.3.nupkg.sha512",
     "/Users/safak/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

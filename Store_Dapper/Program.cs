@@ -1,14 +1,18 @@
 using System.Data;
 using System.Reflection;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Npgsql;
 using Store_Dapper.Repositores;
+using Store_Dapper.SeedData;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+//option.Filters.Add(new ValidateFilter()))
+builder.Services.AddControllers().AddFluentValidation(x => x.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -45,6 +49,17 @@ builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 
 var app = builder.Build();
+
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbConnection = scope.ServiceProvider.GetRequiredService<IDbConnection>();
+
+    dbConnection.Open();
+    await Seed.Create(dbConnection);
+}
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

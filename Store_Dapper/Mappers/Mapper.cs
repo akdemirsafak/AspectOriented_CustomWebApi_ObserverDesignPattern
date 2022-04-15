@@ -11,7 +11,6 @@ namespace Store_Dapper.Mappers
         {
             CreateMap<Book,BookDto>().ReverseMap();
             CreateMap<Customer,CustomerDto>().ReverseMap();
-            
         }   
     }
 }

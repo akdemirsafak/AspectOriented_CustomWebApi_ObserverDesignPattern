@@ -19,7 +19,7 @@ namespace Store_Dapper.Application.CustomerOperations.Queries.GetAll
 
             var customersDtos = new List<CustomerDto>();
 
-            customers.ForEach(x => customersDtos.Add(new CustomerDto(x)));
+            customers.ForEach(x => customersDtos.Add(new CustomerDto(){Name=x.Name,LastName=x.LastName,Balance=x.Balance}));
 
             return ResponseDto<List<CustomerDto>>.Success(customersDtos, 200);
         }
